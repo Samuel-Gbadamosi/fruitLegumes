@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    background-color: #ECECF0;
+}
+
+header{
+    height: 50px;
+    background-color: #ECECF0;
+}
+
+header h3{
+    font-size: 35px;
+    font-weight: 700;
+    padding: 6px;
+}
+
+.myline li{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.res{
+    /* height: 500px; */
+    width: 100%;
+    margin-top: 98px;
+    line-height: 2;
+}
+
+.sect1{
+    /* height: 500px; */
+}
+
+.res .sp{
+    font-size: 37px;
+    font-weight: 500;
+}
+
+.res h1{
+    color:#43960f;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.res p{
+    font-weight: 700;
+}
+
+.broco{
+    height: 418px;
+}
+
+.vege{
+    /* height: 500px; */
+    background-color: white;
+    border-radius: 20px;
+}
+
+.abt{
+    height: 70px;
+    width: 220px;
+    background-color: #43960f;
+    text-align: center;
+    padding-top: 9px;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.leg{
+    height: 500px;
+}
+
+.sect2{
+    /* height: 430px; */
+    background-color: white;
+}
+
+.sect2 p{
+    color: black;
+    line-height: 28px;
+}
+
+.gan{
+    height: 100px;
+    width: 30px;
+    background-color: red;
+    border-radius: 30px;
+}
+
+.opo{
+    position: relative;
+    left: 110px;
+    bottom: 80px;
+}
+
+.sect09{
+    height: 600px;
+    background-image: url('./tet.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.cara{
+    height: 350px;
+    width: 70%;
+    margin-left: 200px;
+    background-color: #528E21;
+}
+
+.picpic{
+    height: 243px;
+    background-color: white;
+    padding: 16px;
+    margin: 53px;
+    padding-left: 23px;
+}
+
+.gl{
+     height: 206px;
+    background-color: blue;
+}
+
+.ic{
+    font-size: 8px;
+    height: 9px;
+    margin-left: 79px;
+}
+
+.jame{
+    color: white;
+}
+
+.jame p{
+    font-size: 19px;
+    width: 80%;
+    color: bisque;
+}
+
+.sect20{
+    /* height: 200px; */
+    /* background-color: red; */
+}
+
+.ftm{
+    background-color: white;
+    /* height: 500px; */
+}
+
+.map{
+    height: 400px;
+}
+
+.myfoot{
+    height: 350px;
+    background-color: #3b3b3b;
+    color: white;
+    
+}
+
+.shee{
+    height: 63px;
+    text-align: center;
+    width: 46%;
+    font-size: 30px;
+    border: 2px solid white;
+    font-weight: 700;
+}
+
+.myfoot h5{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.mail{
+    border-radius: 10px;
+    height: 43px;
+    width: 300px;
+    border: 2px solid white;
+}
