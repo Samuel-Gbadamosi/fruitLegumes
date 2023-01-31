@@ -1,3 +1,22 @@
+<?php
+
+include('db.php');
+
+//declare and receive connection
+$pdo = pdo_connect_mysql();
+
+
+//select all from products if you want to display products 
+$stmt = $pdo->prepare('SELECT * FROM products');
+$stmt->execute();
+$products = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+
+
+
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -121,7 +140,7 @@
                     <div class="col-6">
                         <div class="res pl-5">
                             <span class="sp">Shop with us</span>
-                            <h1>Legumes & Vegetables Shop</h1>
+                            <h1>Legumes Store</h1>
 
                             <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at it's layout.The point of using lorem Ipsum is that it has a more or less normal </p>
 
@@ -137,8 +156,8 @@
                         </div>
 
                     </div>
-                    <div class="col-6 pt-4">
-                        <div class="pt-4">
+                    <div class="col-6 ">
+                        <div class="">
                             <img class="broco" src="brocoli.png" alt="">
                         </div>
 
@@ -226,16 +245,16 @@
                       <div class="row">
                           <div class="col-4">
                               <div class="picpic">
-                                  <img class="gl" src="glasses.jpeg" alt="">
+                                  <img style="width:179px;" class="gl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCz_S3hjf3ajWtpjQi1kdFOIAha6ko_GbU-g&usqp=CAU" alt="">
                                   <img class="ic" src="colo.png" alt="">
                               </div>
 
                           </div>
                           <div class="col-8">
                               <div class="pt-5 jame">
-                                  <h3>Jamono</h3>
-                                  <small>Review</small>
-                                  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at it's layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and</p>
+                                  <h3>Ryan Reynolds</h3>
+                                  <small>Actor</small>
+                                  <p>Be Real in whatever you do and don't turn backwards readable content of a page when looking at it's layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and</p>
                               </div>
 
 
@@ -353,7 +372,7 @@
     </main>
     <!-- main ends here -->
     <!-- footer starts -->
-    <footer class="p-4 myfoot">
+    <footer class="p-4 myfoot pt-3">
         <div class="row offset-1 p-3 col-2">
             <p class="shee">Shree</p>
 
