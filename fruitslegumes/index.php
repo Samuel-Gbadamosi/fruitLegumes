@@ -4,12 +4,12 @@ include('db.php');
 
 //declare and receive connection
 $pdo = pdo_connect_mysql();
-
-
 //select all from products if you want to display products 
 $stmt = $pdo->prepare('SELECT * FROM products');
 $stmt->execute();
 $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+
 
 
 
@@ -63,6 +63,7 @@ $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
         <!-- header starts -->
 <!-- main starts here -->
     <main>
+        <!-- section one starts here -->
      <section class="sect1 ">
         <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -176,6 +177,7 @@ $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
           </div>
 
      </section>
+     <!-- section ends here -->
      <section class="vege">
          <div class="row">
              <div class="offset-2 col-4 pt-4">
@@ -200,6 +202,7 @@ $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
          <h1>FRESH <small style="color: green; font-weight: 700;">VEGETABLE</small></h1>
 
      </div>
+     <!-- sextion one starts -->
      <section class="sect2">
          <div class="row mt-4 pt-4">
              <div class="offset-1 col-4">
@@ -227,6 +230,8 @@ $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
          </div>
 
      </section>
+          <!-- sextion one starts -->
+          <!-- section 09n starts here -->
      <section class="sect09">
          <div class="row">
              <div class="offset-9 col-4">
@@ -321,11 +326,11 @@ $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
           </div>
 
      </section>
-
+               <!-- section 09n starts here -->
         <div class="row text-center mt-2 p-3">
             <h1>FRESH <small style="color: green; font-weight: 700;">VEGETABLE</small></h1>
-   
         </div>
+        <!-- section 20 starts -->
         <section class="sect20 mt-3">
             <div class="row">
                 <div class="offset-1 col-5">
@@ -364,22 +369,17 @@ $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
             </div>
 
         </section>
-
-
+                <!-- section 20 starts -->
     </main>
     <!-- main ends here -->
     <!-- footer starts -->
     <footer class="p-4 myfoot pt-3">
         <div class="row offset-1 p-3 col-2">
             <p class="shee">Shree</p>
-
-
         </div>
         <div class="row">
             
             <div class="offset-1 col-4">
-                
-                
                 <div>
                     <h5>Address</h5>
                     
